@@ -16,13 +16,13 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Nayaab Anwar, Designer & Creative",
+  title: "Nayaab Anwar",
   description: "Portfolio of Nayaab Anwar, a designer and creative based focusing on meaningful, purpose-driven work.",
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "Nayaab Anwar, Designer & Creative",
+    title: "Nayaab Anwar",
     description: "Portfolio of Nayaab Anwar, a designer and creative focusing on meaningful, purpose-driven work.",
     type: "website",
   },
