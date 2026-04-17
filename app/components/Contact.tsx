@@ -122,7 +122,7 @@ export default function Contact() {
               fontWeight: 300,
             }}
           >
-            Nayaab Anwar &copy; 2025
+            Nayaab Anwar &copy; 2026
           </span>
           <span
             style={{
