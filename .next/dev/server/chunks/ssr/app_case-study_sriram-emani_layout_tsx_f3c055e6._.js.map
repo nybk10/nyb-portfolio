@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/nyb/Desktop/nyb_port/app/case-study/sriram-emani/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\n\nexport const metadata: Metadata = {\n  title: \"Sriram Emani: Case Study | Nayaab Anwar\",\n  description: \"Portfolio website design for Sriram Emani, actor, singer, and dancer based in Hollywood.\",\n};\n\nexport default function Layout({ children }: { children: React.ReactNode }) {\n  return <>{children}</>;\n}\n"],"names":[],"mappings":";;;;;;;;AAEO,MAAM,WAAqB;IAChC,OAAO;IACP,aAAa;AACf;AAEe,SAAS,OAAO,EAAE,QAAQ,EAAiC;IACxE,qBAAO;kBAAG;;AACZ"}}]
-}
