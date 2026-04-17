@@ -236,33 +236,12 @@ export default function SriramEmaniCaseStudy() {
           <p style={{ fontSize: "10px", letterSpacing: "0.18em", color: "var(--fg-subtle)", fontWeight: 400, marginBottom: "1.25rem" }}>
             THE PORTFOLIO
           </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "0.75rem" }}>
-            {[
-              { src: "/sriram_1.jpg", label: "HEADSHOT 01" },
-              { src: "/sriram_2.jpg", label: "HEADSHOT 02" },
-              { src: "/sriram_3.jpg", label: "PRODUCTION" },
-              { src: "/sriram_4.jpg", label: "EDITORIAL" },
-            ].map(({ src, label }) => (
-              <div key={label} style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-                <div
-                  style={{
-                    width: "100%",
-                    aspectRatio: "3/4",
-                    borderRadius: "3px",
-                    overflow: "hidden",
-                    border: "1px solid var(--border)",
-                    background: "#111111",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <span style={{ fontSize: "9px", letterSpacing: "0.12em", color: "rgba(255,255,255,0.15)" }}>
-                    {label}
-                  </span>
-                </div>
-              </div>
-            ))}
+          <div style={{ borderRadius: "4px", overflow: "hidden", border: "1px solid var(--border)" }}>
+            <img
+              src="/se_portfolio.png"
+              alt="Sriram Emani Portfolio"
+              style={{ width: "100%", display: "block" }}
+            />
           </div>
         </div>
       </section>
