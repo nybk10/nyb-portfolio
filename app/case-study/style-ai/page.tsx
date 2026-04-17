@@ -492,7 +492,7 @@ export default function StyleAICaseStudy() {
           }}
         >
           <span className="font-display" style={{ fontSize: "0.875rem", color: "var(--fg-subtle)", fontWeight: 300 }}>
-            Nayaab Anwar &copy; 2025
+            Nayaab Anwar &copy; 2026
           </span>
           <span style={{ fontSize: "11px", letterSpacing: "0.12em", color: "var(--fg-subtle)", fontWeight: 400 }}>
             BUILT WITH INTENTION AND RESTRAINT.
