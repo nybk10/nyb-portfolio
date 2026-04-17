@@ -436,10 +436,10 @@ export default function StyleAICaseStudy() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div>
             <p style={{ fontSize: "10px", letterSpacing: "0.18em", color: "var(--fg-subtle)", fontWeight: 400, marginBottom: "1rem" }}>
-              PREVIOUS PROJECT
+              NEXT PROJECT
             </p>
             <Link
-              href="/case-study/neighbors"
+              href="/case-study/fortuna-insights"
               className="font-display"
               style={{
                 fontSize: "clamp(1.5rem, 4vw, 3rem)",
@@ -456,8 +456,8 @@ export default function StyleAICaseStudy() {
               onMouseEnter={e => (e.currentTarget.style.color = "var(--accent)")}
               onMouseLeave={e => (e.currentTarget.style.color = "var(--fg)")}
             >
-              <span style={{ fontSize: "1.5rem", fontStyle: "normal" }}>←</span>
-              Neighbors Immigration Clinic
+              Fortuna Insights
+              <span style={{ fontSize: "1.5rem", fontStyle: "normal" }}>→</span>
             </Link>
           </div>
 
