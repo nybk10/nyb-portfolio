@@ -434,10 +434,10 @@ export default function FortunaInsightsCaseStudy() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div>
             <p style={{ fontSize: "10px", letterSpacing: "0.18em", color: "var(--fg-subtle)", fontWeight: 400, marginBottom: "1rem" }}>
-              PREVIOUS PROJECT
+              NEXT PROJECT
             </p>
             <Link
-              href="/case-study/style-ai"
+              href="/case-study/sriram-emani"
               className="font-display"
               style={{
                 fontSize: "clamp(1.5rem, 4vw, 3rem)",
@@ -454,38 +454,12 @@ export default function FortunaInsightsCaseStudy() {
               onMouseEnter={e => (e.currentTarget.style.color = "var(--accent)")}
               onMouseLeave={e => (e.currentTarget.style.color = "var(--fg)")}
             >
-              <span style={{ fontSize: "1.5rem", fontStyle: "normal" }}>←</span>
-              Style AI
+              Sriram Emani
+              <span style={{ fontSize: "1.5rem", fontStyle: "normal" }}>→</span>
             </Link>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "1rem", alignItems: "flex-end" }}>
-            <div>
-              <p style={{ fontSize: "10px", letterSpacing: "0.18em", color: "var(--fg-subtle)", fontWeight: 400, marginBottom: "1rem", textAlign: "right" }}>
-                NEXT PROJECT
-              </p>
-              <Link
-                href="/case-study/sriram-emani"
-                className="font-display"
-                style={{
-                  fontSize: "clamp(1.5rem, 4vw, 3rem)",
-                  fontWeight: 300,
-                  letterSpacing: "-0.02em",
-                  color: "var(--fg)",
-                  textDecoration: "none",
-                  fontStyle: "italic",
-                  transition: "color 0.3s ease",
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "1rem",
-                }}
-                onMouseEnter={e => (e.currentTarget.style.color = "var(--accent)")}
-                onMouseLeave={e => (e.currentTarget.style.color = "var(--fg)")}
-              >
-                Sriram Emani
-                <span style={{ fontSize: "1.5rem", fontStyle: "normal" }}>→</span>
-              </Link>
-            </div>
             <Link
               href="/"
               style={{
